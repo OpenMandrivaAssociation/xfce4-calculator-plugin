@@ -1,5 +1,7 @@
 %define url_ver	%(echo %{version} | cut -d. -f1,2)
 
+%define _disable_rebuild_configure 1
+
 Name:		xfce4-calculator-plugin
 Summary:	Calculator pluging for the Xfce4 panel
 Version:	0.7.0
@@ -23,6 +25,7 @@ xfce4-calculator-plugin is a calculator plugin for the Xfce4 panel.
 
 %build
 %configure
+%xdt_autogen
 %make_build
 
 %install
