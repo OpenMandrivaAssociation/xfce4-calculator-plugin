@@ -33,6 +33,6 @@ xfce4-calculator-plugin is a calculator plugin for the Xfce4 panel.
 
 %files
 %doc AUTHORS README TODO
-%{_libexecdir}/xfce4/panel-plugins/xfce4-calculator-plugin
+%{_libdir}/xfce4/panel/plugins/libcalculator.so
 %{_iconsdir}/hicolor/*/apps/xfce4-calculator-plugin.png
-%{_datadir}/xfce4/panel-plugins/calculator.desktop
+%{_datadir}/xfce4/panel/plugins/calculator.desktop
