@@ -4,7 +4,7 @@
 
 Name:		xfce4-calculator-plugin
 Summary:	Calculator pluging for the Xfce4 panel
-Version:	0.7.0
+Version:	0.7.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
@@ -25,7 +25,6 @@ xfce4-calculator-plugin is a calculator plugin for the Xfce4 panel.
 
 %build
 %configure
-%xdt_autogen
 %make_build
 
 %install
