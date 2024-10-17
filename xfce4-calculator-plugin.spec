@@ -8,7 +8,7 @@ Version:	0.7.2
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-calculator-plugin/%{url_ver}/xfce4-calculator-plugin-%{version}.tar.bz2
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
