@@ -4,12 +4,12 @@
 
 Name:		xfce4-calculator-plugin
 Summary:	Calculator pluging for the Xfce4 panel
-Version:	0.7.2
+Version:	0.7.3
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
-Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-calculator-plugin/%{url_ver}/xfce4-calculator-plugin-%{version}.tar.bz2
+Source0:	https://archive.xfce.org/src/panel-plugins/xfce4-calculator-plugin/%{url_ver}/xfce4-calculator-plugin-%{version}.tar.bz2
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libxfce4ui-2)
