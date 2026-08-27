@@ -4,16 +4,13 @@
 
 Name:		xfce4-calculator-plugin
 Summary:	Calculator pluging for the Xfce4 panel
-Version:	0.7.3
+Version:	0.8.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
 Source0:	https://archive.xfce.org/src/panel-plugins/xfce4-calculator-plugin/%{url_ver}/xfce4-calculator-plugin-%{version}.tar.bz2
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	libtool-base
-BuildRequires:	slibtool
+BuildRequires:	meson
 BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
@@ -26,14 +23,14 @@ Requires:	xfce4-panel
 xfce4-calculator-plugin is a calculator plugin for the Xfce4 panel.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %find_lang %{name}
 
